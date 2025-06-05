@@ -1,0 +1,110 @@
+ li{
+    color:chartreuse;
+}
+
+strong{
+    color:darkseagreen
+}
+
+p{
+ color: chartreuse
+}
+h2{
+    color: darkseagreen;
+    
+}
+h4{
+    color: chartreuse;
+    
+}
+label{
+    color: chartreuse;
+    
+}
+button{
+    color: brown;
+     color: red;
+    transition: 2s;
+    cursor: pointer;
+
+}
+.navbar ul{
+    display:flex;
+    background-color:rgb(20, 27, 18);
+    justify-content: space-evenly;}
+ 
+
+li:hover{
+      color: rgb(255, 17, 0);
+    transition: 2ms;
+    cursor: pointer;
+
+}
+      
+
+h1{
+    display:flex;
+    justify-content: center;
+    margin-top: 9px; }  
+h1:hover{
+       color: rgb(255, 0, 0);
+    transition: 2ms;
+    cursor: pointer;
+    
+
+   
+}
+.home{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+   
+   
+}
+
+.contact{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    
+}
+.de{
+    height:100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+
+     padding-top: 0px;
+  padding-right: 50px;
+  
+}
+
+.info{
+    display: flex;
+    align-items: center;
+}
+
+.animation{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.animation img{
+    width: 200px;
+  
+  
+}
